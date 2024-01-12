@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 543px 270px;
+    margin: 35px;
+    gap: 17px;
+}
+
+.main-video {
+    margin-bottom: 12px;
+}
+
+.main-text h1 {
+    font-size: 18px;
+}
+
+.main-text h1, .main-text p {
+    margin-bottom: 8px;
+}
+
+.main-text .views, .aside-text h2 {
+    font-size: 14px;
+}
+
+.ads {
+    margin-bottom: 20px;
+}
+
+.suggested-videos li {
+    display:flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.aside-text p {
+    font-size: 11px;
+}
+
+.aside-text h2, .aside-text p {
+    margin-bottom: 5px;
+}
